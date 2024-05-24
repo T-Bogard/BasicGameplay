@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 6521776652507562938}
   - component: {fileID: 6871914802848282038}
   - component: {fileID: 7947119827362620993}
+  - component: {fileID: -1778713255990018319}
+  - component: {fileID: 6867563278356474516}
+  - component: {fileID: 168952505}
+  - component: {fileID: 168952507}
   m_Layer: 0
   m_Name: Food_Bone_01
   m_TagString: Untagged
@@ -106,5 +110,62 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56cd8f6969b11e64faad6dea1fd578af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 30
+  backBound: -14
+--- !u!65 &-1778713255990018319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6521776652505554302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6528887, y: 0.12128265, z: 0.29866803}
+  m_Center: {x: 0, y: 0.060641326, z: 0}
+--- !u!54 &6867563278356474516
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6521776652505554302}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &168952505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6521776652505554302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56cd8f6969b11e64faad6dea1fd578af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 30
+  backBound: -14
+--- !u!114 &168952507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6521776652505554302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca0d3b8df1d09e40865c0a757bde76e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
